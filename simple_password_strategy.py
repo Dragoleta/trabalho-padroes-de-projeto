@@ -5,9 +5,9 @@ from password_strategy import PasswordStrategy
 
 
 class SimplePasswordStrategy(PasswordStrategy):
-    def generate_password(self):
+    def generate_password(self, lenght):
         builder = PasswordBuilder()
         generator = PasswordGenerator(builder)
         storage = PasswordStorage()
         generator.observers.append(storage)
-        generator.generate_password()
+        generator.generate_password(lenght)

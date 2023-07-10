@@ -5,16 +5,18 @@ from password_strategy import PasswordStrategy
 
 
 class ComplexPasswordStrategy(PasswordStrategy):
-    def generate_password(self):
+    def generate_password(self, lenght):
         builder = PasswordBuilder()
         generator = PasswordGenerator(builder)
         storage = PasswordStorage()
         generator.observers.append(storage)
 
         # Add additional complexity to the password generation logic
-        builder.generate_password()
+        
+        
+        builder.generate_password(lenght)
         password = builder.get_password()
         complex_password = password + "!$#"
         builder.password = complex_password
 
-        generator.generate_password()
+        generator.generate_password(lenght)
