@@ -1,0 +1,42 @@
+{
+    "Teste": {
+        "password": "teste123",
+        "SavedPasswords": {
+            "fsdfsdf.com": [
+                "password123"
+            ],
+            "netflix.com": [
+                "dasds"
+            ],
+            "Youtube": [
+                "nkashoux6tjq"
+            ],
+            "spotify": [
+                "ykig0kcjls1opng014spq36"
+            ],
+            "cornhub": [
+                "l@7s0>+fl:op"
+            ],
+            "facebook": [
+                "AM/D`(Z%m.unNu`F%=Vy6]jG!Ab#,0hBG?I7NRJMX1,5?q"
+            ]
+        }
+    },
+    "andrew": {
+        "password": "12345",
+        "SavedPasswords": {}
+    },
+    "joao": {
+        "password": "1234",
+        "SavedPasswords": {
+                        "dkodkdo": [
+                "wzb0gyed5g1pzxhuv0fxswrms"
+            ],
+            "DuckDuckGo": [
+                "T\\@Q?ofn^E'5j6p9eFE_$Q}#~6!u7's.Mh[\"t[T)r^/P+w){0S"
+            ],
+            "Github": [
+                "a108vlc5go0js5cvypfx2"]
+        }
+    }
+}
